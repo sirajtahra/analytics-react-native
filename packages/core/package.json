@@ -1,6 +1,6 @@
 {
   "name": "@segment/analytics-react-native",
-  "version": "2.1.0-beta",
+  "version": "2.1.1-beta",
   "description": "The hassle-free way to add Segment analytics to your React-Native app.",
   "main": "lib/commonjs/index",
   "scripts": {
@@ -45,7 +45,7 @@
   "homepage": "https://github.com/segmentio/analytics-react-native#readme",
   "dependencies": {
     "@react-native-async-storage/async-storage": "^1.15.17",
-    "@segment/sovran-react-native": "0.2.2",
+    "@segment/sovran-react-native": "0.2.3",
     "js-base64": "^3.7.2",
     "nanoid": "^3.1.25",
     "react": "^17.0.2",

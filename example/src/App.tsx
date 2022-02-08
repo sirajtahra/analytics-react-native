@@ -28,10 +28,11 @@ import { Logger } from './plugins/Logger';
 import { AmplitudeSessionPlugin } from '@segment/analytics-react-native-plugin-amplitude-session';
 
 const segmentClient = createClient({
-  writeKey: 'WRITE KEY',
+  writeKey: 'QKoI2cHIPlixGDB358Y3T86tVqpaBZK3',
   trackAppLifecycleEvents: true,
   collectDeviceId: true,
   debug: true,
+  trackDeepLinks: true,
 });
 
 const LoggerPlugin = new Logger();
